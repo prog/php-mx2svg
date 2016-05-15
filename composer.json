@@ -1,0 +1,19 @@
+{
+	"name": "peterbodnar.com/mx2svg",
+	"description": "Matrix to svg renderer",
+	"keywords": ["matrix", "svg", "render"],
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"require": {
+		"php": "^5.4 || ^7.0",
+		"peterbodnar.com/mx": "^1.0",
+		"peterbodnar.com/svg": "^1.0"
+	},
+	"require-dev": {
+		"nette/tester": "^1.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"com\\peterbodnar\\mx2svg\\": "src/"
+		}
+	}
+}
